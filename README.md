@@ -1,27 +1,25 @@
 # pixel-jump-bug-runner-game
 2d runner game
-How to get that game running and play it
+What you need in your folder
+Put all these files together in one single folder:
 
-Quick summary of how to get the whole setup working for your hackathon without making it overly complicated:
+    index.html – The game layout and screen
 
-What you need to have ready
-Make sure XAMPP is running with Apache and MySQL turned on, so your local server is good to go.
+    style.css – The retro pixel styling
 
-The files in your folder
-Dump all these files into a single folder inside your htdocs (for example, C:/xampp/htdocs/bug-runner/):
+    script.js – The core logic for jumping, gravity, and collisions
 
-    index.html – The playing field and layout
+    speler.png – The blue character with the graduation cap
 
-    style.css – That retro pixel-art style
+    bug.png – The red bug with the 404 error
 
-    script.js – The whole engine for jumping, gravity, and collisions
+How to play
 
-    speler.png – That blue character with your graduation cap
+    Double-click index.html to open it right in Chrome, Firefox, or Edge.
 
-    bug.png – That annoying red bug with the 404 error
+    Press the spacebar or click/tap on the screen to jump over those incoming red bugs.
 
-How to test it
-Open your browser, type http://localhost/bug-runner/index.html in the address bar (or whatever your folder is called) and the game loads right away. Press the spacebar or click the screen to jump over those red bugs. If you crash, you see your score and you can restart right away via the button.
+    If you crash, your final score pops up and you can hit restart to try again.
 
-Setting up that database
-For those 4 mandatory entities (Gebruikers, Scores, Skins, Instellingen), you just create your tables in phpMyAdmin. Grab the scores from your JavaScript and shoot them to a small PHP script using a simple fetch so it lands neatly in the database. Easy!
+Connecting the database later
+You only need XAMPP and PHP/MySQL when you're actually ready to save those highscores to your database tables (Gebruikers, Scores, Skins, Instellingen). For just testing and playing the game itself, opening the HTML file directly in your browser is enough.
