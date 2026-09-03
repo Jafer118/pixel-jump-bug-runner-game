@@ -1,6 +1,7 @@
 # pixel-jump-bug-runner-game
 2d runner game
 User Manual: Pixel Jump: The Bug-Runner
+
 What's in the Folder?
 Make sure all these files are put together in your project folder:
 
