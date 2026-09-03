@@ -35,4 +35,4 @@ You don't need XAMPP or any local server just to play the game; simply double-cl
 
 You only need XAMPP, PHP, and MySQL when you are actually ready to save those highscores to your database tables (Gebruikers, Scores, Skins, Instellingen). For regular testing, playing, and showing the game off during the hackathon, opening the HTML file directly in your browser is more than enough!
 
-Wil je dat ik deze Engelse handleiding meteen voor je in Google Docs aanmaak zodat je hem kunt inleveren?
+
