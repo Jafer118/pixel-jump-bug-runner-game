@@ -1,38 +1,27 @@
 # pixel-jump-bug-runner-game
 2d runner game
-Handleiding: Pixel Jump: De Bug-Runner (Updated Edition)
-1. What You Need in Your Folder
+User Manual: Pixel Jump: The Bug-Runner
+What's in the Folder?
+Make sure all these files are put together in your project folder:
 
-Put all these files together in one single folder:
+    db_schema.sql – The database schema for saving scores and game data.
 
     index.html – The game layout, canvas, and screens.
 
+    save_score.php – The PHP backend to connect scores to the database.
+
+    script.js – The core game logic for jumping, flying, shooting, gravity, and collision detection.
+
     style.css – The retro pixel styling and UI design.
 
-    script.js – The core game logic (jumping, flying, shooting, gravity, and collision detection).
-
-    speler.png – The student character with the graduation cap.
-
-    bug.png – The red bug with the 404 error.
-
 2. How to Play & Controls
+You can open the game directly by double-clicking index.html in your browser. The controls work as follows:
 
-You don't need XAMPP or any local server just to play the game; simply double-click index.html to open it right in Chrome, Firefox, or Edge.
+    Runner Mode: Spacebar or click/tap to jump or shoot.
 
-    Runner Mode (Phase 1):
+    Airplane / Boss Fight: Use the W key to move up and the S key to move down.
 
-        Spacebar or Click/Tap: Jump over incoming red 404-bugs or shoot projectiles.
+    Game Over: If your character crashes into a bug or obstacle, the game stops immediately and your score is displayed.
 
-    Boss Fight / Flight Mode (Phase 2):
-
-        W Key: Move your airplane/character up.
-
-        S Key: Move your airplane/character down.
-
-    Game Over: If you crash into a bug or boss obstacle, your final score pops up immediately, and you can hit the restart button to try again.
-
-3. Connecting the Database (Backend)
-
-You only need XAMPP, PHP, and MySQL when you are actually ready to save those highscores to your database tables (Gebruikers, Scores, Skins, Instellingen). For regular testing, playing, and showing the game off during the hackathon, opening the HTML file directly in your browser is more than enough!
-
-
+3. Database & XAMPP
+Do you want to save scores using save_score.php and db_schema.sql? Just make sure XAMPP is running and your database is properly connected in phpMyAdmin. For regular testing and playing, you don't even need this right away!
