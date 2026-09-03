@@ -1,25 +1,38 @@
 # pixel-jump-bug-runner-game
 2d runner game
-What you need in your folder
+Handleiding: Pixel Jump: De Bug-Runner (Updated Edition)
+1. What You Need in Your Folder
+
 Put all these files together in one single folder:
 
-    index.html – The game layout and screen
+    index.html – The game layout, canvas, and screens.
 
-    style.css – The retro pixel styling
+    style.css – The retro pixel styling and UI design.
 
-    script.js – The core logic for jumping, gravity, and collisions
+    script.js – The core game logic (jumping, flying, shooting, gravity, and collision detection).
 
-    speler.png – The blue character with the graduation cap
+    speler.png – The student character with the graduation cap.
 
-    bug.png – The red bug with the 404 error
+    bug.png – The red bug with the 404 error.
 
-How to play
+2. How to Play & Controls
 
-    Double-click index.html to open it right in Chrome, Firefox, or Edge.
+You don't need XAMPP or any local server just to play the game; simply double-click index.html to open it right in Chrome, Firefox, or Edge.
 
-    Press the spacebar or click/tap on the screen to jump over those incoming red bugs.
+    Runner Mode (Phase 1):
 
-    If you crash, your final score pops up and you can hit restart to try again.
+        Spacebar or Click/Tap: Jump over incoming red 404-bugs or shoot projectiles.
 
-Connecting the database later
-You only need XAMPP and PHP/MySQL when you're actually ready to save those highscores to your database tables (Gebruikers, Scores, Skins, Instellingen). For just testing and playing the game itself, opening the HTML file directly in your browser is enough.
+    Boss Fight / Flight Mode (Phase 2):
+
+        W Key: Move your airplane/character up.
+
+        S Key: Move your airplane/character down.
+
+    Game Over: If you crash into a bug or boss obstacle, your final score pops up immediately, and you can hit the restart button to try again.
+
+3. Connecting the Database (Backend)
+
+You only need XAMPP, PHP, and MySQL when you are actually ready to save those highscores to your database tables (Gebruikers, Scores, Skins, Instellingen). For regular testing, playing, and showing the game off during the hackathon, opening the HTML file directly in your browser is more than enough!
+
+Wil je dat ik deze Engelse handleiding meteen voor je in Google Docs aanmaak zodat je hem kunt inleveren?
