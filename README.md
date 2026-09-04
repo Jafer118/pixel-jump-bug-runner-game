@@ -19,9 +19,6 @@ Make sure all these files are put together in your project folder:
 You can open the game directly by double-clicking index.html in your browser. The controls work as follows:
 
     Runner Mode: Spacebar or click/tap to jump or shoot.
-
-    Airplane / Boss Fight: Use the W key to move up and the S key to move down.
-
     Game Over: If your character crashes into a bug or obstacle, the game stops immediately and your score is displayed.
 
 3. Database & XAMPP
