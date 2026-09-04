@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pixel Jump: De Bug-Runner</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="game-wrapper">
+    <h1 class="title">PIXEL JUMP: <span class="title-accent">DE BUG-RUNNER</span></h1>
+
+    <div class="game-frame">
+      <canvas id="gameCanvas" width="1000" height="480"></canvas>
+
+      <!-- HUD -->
+      <div class="hud">
+        <div class="hud-left">
+          <div class="score-label">SCORE: <span id="score">0</span></div>
+          <div class="highscore-label">HIGHSCORE: <span id="highscore">0</span></div>
+          <div class="distance-label">AFSTAND: <span id="distance">0</span> m</div>
+        </div>
+        <div class="hud-right" id="lives">
+          <!-- lives icons injected by JS -->
+        </div>
+      </div>
+
+      <button id="shootBtn" class="shoot-btn" aria-label="Schiet">🔫 SCHIET</button>
+
+      <!-- Start overlay -->
+      <div id="startScreen" class="overlay">
+        <p class="overlay-title">KLAAR OM TE DEBUGGEN?</p>
+        <p class="overlay-text">Spatie/klik/tik = springen &nbsp;·&nbsp; F of de knop = schieten</p>
+        <button id="startBtn" class="pixel-btn">START</button>
+      </div>
+
+      <!-- Game over overlay -->
+      <div id="gameOverScreen" class="overlay hidden">
+        <p class="overlay-title over">GAME OVER</p>
+        <p class="overlay-text">Bug <span id="finalScore">0</span> punten gehaald!</p>
+        <p class="overlay-text small" id="newHighscoreMsg"></p>
+        <button id="restartBtn" class="pixel-btn">OPNIEUW SPELEN</button>
+      </div>
+    </div>
+
+    <p class="footer-hint">Spatiebalk/Klik/Tik = Springen &nbsp;|&nbsp; F = Schieten (shotgun)</p>
+  </div>
+
+<script src="script.js?v=4"></script>
+</body>
+</html>
